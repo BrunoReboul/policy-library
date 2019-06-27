@@ -16,6 +16,8 @@ apiVersion: constraints.gatekeeper.sh/v1alpha1
 kind: GCPAppEngineServiceVersionsConstraintV1
 metadata:
   name: service_versions
+  annotations:
+    scorecard.cft.dev/category: operational-efficiency
 spec:
   match:
     target: ["organization/*"]
