@@ -83,8 +83,6 @@ To test multiple constraints at the same time, have multiple subfolders in `test
 - multiple constraints `deny` rule execution
 - rich output to support troubleshooting
 
-`opa run lib/ validator/ test/iamAuditLog_orgOnly_iap/`  
-
 ## Run test locally
 
 - Launch [OPA REPL](https://www.openpolicyagent.org/docs/latest/get-started#goals) by executing `opa run lib/ validator/ test/`
